@@ -179,6 +179,12 @@ main section {
 }
 
 /* footer style */
+.img_icon {
+  margin-top: 350px;
+}
+.img_icon img {
+  margin-right: 40px;
+}
 footer {
   padding: 130px 230px;
   display: flex;
@@ -187,8 +193,15 @@ footer {
 .footer_colume {
   width: 50%;
 }
-footer input[type='text'] {
+footer input[type='text'],
+footer input[type='email'],
+footer textarea {
   height: 64px;
   border-radius: 5px;
   background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
