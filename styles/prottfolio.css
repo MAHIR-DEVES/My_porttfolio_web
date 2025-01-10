@@ -81,6 +81,15 @@ nav li a {
   color: #474747;
 }
 
+nav button,
+.contact {
+  margin-left: 20px;
+}
+
+.hero_button {
+  margin-top: 100px;
+}
+
 /* banner stayle */
 .banner {
   display: flex;
