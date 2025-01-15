@@ -236,16 +236,17 @@ footer textarea {
     margin: 0;
     padding: 3;
   }
+
   .nav {
     display: none;
-  }
-  ul {
-    font-display: none;
   }
 
   .nav_title {
     font-weight: 8000;
     font-size: 25px;
+  }
+  .btn_primary {
+    margin-bottom: 10px;
   }
 
   .banner {
