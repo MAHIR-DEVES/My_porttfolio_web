@@ -225,8 +225,37 @@ footer textarea {
   .skill_container,
   .resume_container,
   .about_items,
+  .banner,
   footer {
     flex-direction: column;
+  }
+  nav {
+    margin: 10px;
+  }
+  nav .btn_primary {
+    margin: 0;
+    padding: 3;
+  }
+  .nav {
+    display: none;
+  }
+  ul {
+    font-display: none;
+  }
+
+  .nav_title {
+    font-weight: 8000;
+    font-size: 25px;
+  }
+
+  .banner {
+    margin: 20px;
+  }
+  .banner_profile_picture {
+    width: 100%;
+  }
+  .header {
+    background-image: none;
   }
   footer,
   .about {
